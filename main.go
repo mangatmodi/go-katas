@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/mangatmodi/go-katas/hackerrank"
-	"github.com/mangatmodi/go-katas/hackerrank/warmup"
+	"github.com/mangatmodi/go-katas/hackerrank/maths"
 	"os"
 )
 
@@ -15,6 +15,6 @@ func wait() {
 }
 
 func main() {
-	p := warmup.DiagonalDifference{}
+	p := maths.Equalize{}
 	runHackerRank(&p)
 }
